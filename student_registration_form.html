@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" method="post" >
+        <fieldset>
+            <legend>Student Registration Form</legend>
+
+            <label>Name: </label>
+            <input type="text" name="name" placeholder="Enter your name" reqruired><br><br>
+
+            <label>Email: </label>
+            <input type="email" name="email" placeholder="you@example.com" required><br><br>
+
+            <label>Password: </label>
+            <input type="password" name="password" required><br><br>
+
+            <label>Age: </label>
+            <input type="number" name="age" min="5" max="100"><br><br>
+
+            <label>Date of Birth: </label>
+            <input type="date" name="dob"><br><br>
+
+            <label>Gender: </label>
+            <input type="radio" name="gender" value="male">Male 
+            <input type="radio" name="gender" value="female">Female 
+            <input type="radio" name="gender" value="other">Other<br><br>
+
+            <label>City: </label>
+            <select name="city">
+                <option value="dhaka">Dhaka</option>
+                <option value="chattogram">Chattogram</option>
+                <option value="khulna">Khulna</option>
+                <option value="rajshahi">Rajshahi</option>
+                <option value="sylhet">Sylhet</option>
+                <option value="barishal">Barishal</option>
+                <option value="rangpur">Rangpur</option>
+                <option value="mymensingh">Mymensingh</option>
+            </select><br><br>
+
+            <p>Hobbies: </p>
+            <input type="checkbox" name="hobby" value="reading">Reading
+            <input type="checkbox" name="hobby" value="gaming">Gaming 
+            <input type="checkbox" name="hobby" value="gardening">Gardening 
+            <input type="checkbox" name="hobby" value="cricket">Cricket 
+            <input type="checkbox" name="hobby" value="football">Football 
+            <input type="checkbox" name="hobby" value="gossiping">Gossiping 
+            <input type="checkbox" name="hobby" value="touring">Touring
+            <input type="checkbox" name="hobby" value="others">Others <br><br>
+
+            <label>About Yourself: </label><br>
+            <textarea name="about" rows="5" col="50"></textarea>
+            <br><br>
+
+            <input type="submit" value="Register">
+            <input type="reset" value="Clear">
+
+        </fieldset>
+    </form>
+</body>
+</html>
