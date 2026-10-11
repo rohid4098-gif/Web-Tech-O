@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Registration Form</legend>
+
+            <label>First Name: </label>
+            <input type="text" name="name" placeholder="Enter your first name" required>
+
+            <label>Last Name: </label>
+            <input type="text" name="name" placeholder="Enter your last name" required><br><br>
+
+            <label>Email: </label>
+            <input type="email" name="email" placeholder="you@example.com" required><br><br>
+
+            <label>Password: </label>
+            <input type="password" name="password" required>
+
+            <label>Confirm Password: </label>
+            <input type="password" name="password" required><br><br>
+
+            <label>Age: </label>
+            <input type="number" name="age" min="5" max="100"><br><br>
+
+            <label>Date of birth: </label>
+            <input type="date" name="dob"><br><br>
+
+            <label>Gender: </label><br>
+            <input type="radio" name="gender" value="male">Male<br>
+            <input type="radio" name="gender" value="female">Female<br>
+            <input type="radio" name="gender" value="other">Other<br>
+            <br><br>
+
+            <label>About yourself: </label><br>
+            <textarea name="about" rows="5" column="55"></textarea>
+            <br><br>
+
+            <input type="submit" value="Register">
+            <input type="reset" value="Clear">
+        </fieldset>
+    </form>
+</body>
+</html>
